@@ -1,0 +1,867 @@
+<Globals>
+Name = My Building
+HorizScale = 1
+CameraFloor = 0
+CameraPosition = 23, 36
+CameraRotation = 0, 0, 0
+Sky = noon
+<EndGlobals>
+<Textures>
+Load data/beno/gggg1.gif, liftglass, 0.125, 0.125
+Load data/grndroad1mid.jpg, road1, 0.04, 0.04
+Load data/roadfull.jpg, road2, 0.04, 0.04
+Load data/roadfullr.jpg, road3, 0.04, 0.04
+Load data/windows11.jpg, out1, 0.05, 0.1
+Load data/windows11e-r1.jpg, out3, 0.07, 0.1
+Load data/windows11g.jpg, out2, 0.05, 0.1
+Load data/windows11h.jpg, out4, 0.05, 0.1
+Load data/windows11h_inside.gif, in, 0.05, 0.1
+Load data/beno/carpet.JPG, floor3, 0.15, 0.15
+Load data/beno/ceiling.jpg, cei3, 0.2, 0.2
+Load data/beno/stst.JPG, wall3, 0.1, 0.1
+Load data/Carpet0021b_S.jpg, floor2, 0.15, 0.15
+Load data/stucco22.jpg, cei2, 0.1, 0.1
+Load data/marble22.jpg, wall2, 0.1, 0.1
+Load data/checker10.jpg, floor1, 0.2, 0.2
+Load data/beno/ceiling3.jpg, cei1, 0.3, 0.3
+Load data/beno/ho3.JPG, wall1, 0.1, 0.1
+Load data/beno/bout.jpg, az, 1, 1
+Load data/beno/boutz.jpg, azz, 1, 1
+Load data/beno/konedisplay.jpg, azzz, 1, 1
+Load data/beno/gray2.JPG, gray2, 1, 1
+Load data/beno/gray.JPG, gray, 1, 1
+Load data/beno/liftdoor.JPG, door, 1, 1
+Load data/beno/grottyfloor.JPG, afloor, 0.2, 0.2
+Load data/beno/liftceiling.jpg, acei, 0.25, 0.25
+Load data/beno/insidesharft.jpg, dark, 0.2, 0.2
+Load data/beno/liftoutside.JPG, shell, 0.2, 0.2
+Load data/beno/liftwalli.JPG, awall, 1, 1
+Load data/beno/side.gif, side, 0.18, 1
+Load data/beno/grass.JPG, grass, 20, 20
+Load data/beno/roof.JPG, roof, 0.1, 0.1
+AddText az, ab0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb0, nimbus_sans.ttf, 44, G, 0, 0, 128, 99, center, center, 255, 181, 7
+Load data/beno/ecounlit.jpg, azau, 1, 1
+Load data/beno/ecounlit.jpg, azad, 1, -1
+Load data/beno/ecolit.jpg, azaul, 1, 1
+Load data/beno/ecolit.jpg, azadl, 1, -1
+Load data/beno/bout.jpg, azzd, 1, 1
+Load data/beno/boutz.jpg, azzdl, 1, 1
+Load data/beno/bout.jpg, azzu, 1, 1
+Load data/beno/boutz.jpg, azzul, 1, 1
+Load data/beno/bopen.jpg, aopen, 1, 1
+Load data/beno/bclose.jpg, aclose, 1, 1
+Load data/beno/balarm.jpg, aalarm, 1, 1
+Load data/beno/thyssenb.jpg, bz, 1, 1
+Load data/beno/thyssenbl.jpg, bzz, 1, 1
+Load data/beno/mitdis.bmp, bzzz, 1, 1
+Load data/beno/liftceiling.jpg, bcei, 0.25, 0.25
+Load data/beno/liftwallit.JPG, bwall, 1, 1
+Load data/beno/grottyfloor.JPG, bfloor, 0.2, 0.2
+Load data/beno/tunlit.jpg, bzau, 1, 1
+Load data/beno/tunlit.jpg, bzad, 1, -1
+Load data/beno/tlit.jpg, bzaul, 1, 1
+Load data/beno/tlit.jpg, bzadl, 1, -1
+Load data/beno/thyssen.jpg, bzzd, 1, -1
+Load data/beno/thyssenl.jpg, bzzdl, 1, -1
+Load data/beno/thyssen.jpg, bzzu, 1, 1
+Load data/beno/thyssenl.jpg, bzzul, 1, 1
+Load data/beno/thyssenopen.jpg, bopen, 1, 1
+Load data/beno/thyssenclose.jpg, bclose, 1, 1
+Load data/beno/thyssenalarm.jpg, balarm, 1, 1
+AddText bz, bb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb0, nimbus_sans.ttf, 64, G, 0, 0, 256, 128, center, center, 150, 150, 150
+Load data/beno/bout.jpg, az, 1, 1
+Load data/beno/boutz.jpg, azz, 1, 1
+Load data/beno/thyssenkrupp.jpg, blogo, 1, 1
+Load data/beno/eco.gif, alogo, 1, 1
+Load data/beno/u8.jpg, clogo, 0.1, 0.1
+Load data/beno/mbuttonalarm.jpg, calarm, 1, 1
+Load data/beno/mbuttonclose.jpg, cclose, 1, 1
+Load data/beno/mbuttonopen.jpg, copen, 1, 1
+Load data/floor065.jpg, cfloor, 0.12, 0.12
+Load data/beno/modern5.jpg, cwall, 3, 3
+Load data/beno/liftceilingposh.JPG, ccei, 0.125, 0.125
+Load data/beno/mbuttonarrow.jpg, czzu, 1, 1
+Load data/beno/mbuttonarrowlit.jpg, czzul, 1, 1
+Load data/beno/mbuttonarrow.jpg, czzd, 1, -1
+Load data/beno/mbuttonarrowlit.jpg, czzdl, 1, -1
+Load data/beno/mitarrow.jpg, czau, 1, 1
+Load data/beno/mitarrowlit.jpg, czaul, 1, 1
+Load data/beno/mitarrow.jpg, czad, 1, -1
+Load data/beno/mitarrowlit.jpg, czadl, 1, -1
+Load data/beno/mbutton.jpg, cbutton, 1, 1
+AddText cbutton, cb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb0, nimbus_sans.ttf, 64, G, 0, 0, 256, 128, center, center, 20, 20, 255
+Load data/beno/generic.jpg, dz, 1, 1
+Load data/beno/tunlit.jpg, dzad, 1, -1
+Load data/beno/ttlit.jpg, dzadl, 1, -1
+Load data/beno/tunlit.jpg, dzau, 1, 1
+Load data/beno/ttlit.jpg, dzaul, 1, 1
+Load data/beno/genericcallbutton.jpg, dzzu, 1, 1
+Load data/beno/genericcallbuttonlit.jpg, dzzul, 1, 1
+Load data/beno/genericcallbutton.jpg, dzzd, 1, -1
+Load data/beno/genericcallbuttonlit.jpg, dzzdl, 1, -1
+Load data/beno/e1.JPG, dcei, 0.15, 0.15
+Load data/beno/grottyfloort.jpg, dfloor, 0.12, 0.12
+Load data/beno/genericopen.jpg, dopen, 1, 1
+Load data/beno/genericalarm.jpg, dalarm, 1, 1
+Load data/beno/gray2.JPG, dclose, 1, 1
+Load data/beno/roofzz.JPG, dlogo, 0.21, 0.21
+Load data/beno/roofzz.JPG, dwall, 1, 1
+Load data/beno/display.jpg, dzzz, 1, 1
+AddText dz, db0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb0, nimbus_sans.ttf, 44, G, 0, 0, 128, 128, center, center, 255, 0, 0
+Load data/beno/pd.JPG, gray2a, 1, 1
+Load data/beno/gp.JPG, gray2b, 1, 1
+Load data/beno/konecallbutton.jpg, fzzu, 1, 1
+Load data/beno/konecallbuttona.jpg, fzzul, 1, 1
+Load data/beno/tunlit.JPG, fzau, 1, 1
+Load data/beno/tunlit.JPG, fzad, 1, -1
+Load data/beno/thyssenbutton.JPG, ez, 1, 1
+Load data/beno/thyssenbuttonlit.JPG, ezz, 1, 1
+Load data/beno/thyssenbutton.JPG, ezzd, 1, 1
+Load data/beno/thyssenbuttonlit.JPG, ezzdl, 1, 1
+Load data/beno/thyssenbutton.JPG, ezzu, 1, 1
+Load data/beno/thyssenbuttonlit.JPG, ezzul, 1, 1
+Load data/beno/tunlit.JPG, ezau, 1, 1
+Load data/beno/tlit.JPG, ezaul, 1, 1
+Load data/beno/tunlit.JPG, ezad, 1, -1
+Load data/beno/tlit.JPG, ezadl, 1, -1
+Load data/beno/liftceiling.jpg, ecei, 0.25, 0.25
+Load data/metal1.jpg, ewall, 1, 1
+Load data/floor111.jpg, efloor, 0.12, 0.12
+Load data/beno/display.jpg, ezzz, 1, 1
+Load data/beno/thyssenopenbutton.JPG, eopen, 1, 1
+Load data/beno/gray.JPG, eclose, 1, 1
+Load data/beno/thyssenalarmbutton.JPG, ealarm, 1, 1
+Load data/beno/thyssensign.jpg, elogo, 1, 1
+Load data/beno/konebutton.jpg, fz, 1, 1
+Load data/beno/konebuttona.jpg, fzz, 1, 1
+Load data/beno/konecallbutton.jpg, fzzd, 1, -1
+Load data/beno/konecallbuttona.jpg, fzzdl, 1, -1
+Load data/beno/tlit.JPG, fzaul, 1, 1
+Load data/beno/tlit.JPG, fzadl, 1, -1
+Load data/beno/liftceiling.jpg, fcei, 0.25, 0.25
+Load data/beno/modern4.jpg, fwall, 1, 1
+Load data/beno/grottyfloor.JPG, ffloor, 0.2, 0.2
+Load data/beno/konedis.jpg, fzzz, 1, 1
+Load data/beno/koneopen.jpg, fopen, 1, 1
+Load data/beno/koneclose.jpg, fclose, 1, 1
+Load data/beno/balarm.JPG, falarm, 1, 1
+Load data/beno/gray.JPG, flogo, 1, 1
+AddText ez, eb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb0, nimbus_sans.ttf, 44, G, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb0, nimbus_sans.ttf, 46, G, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb0, nimbus_sans.ttf, 44, G, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb1, nimbus_sans.ttf, 44, 1, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb1, nimbus_sans.ttf, 64, 1, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb1, nimbus_sans.ttf, 64, 1, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb1, nimbus_sans.ttf, 44, 1, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb1, nimbus_sans.ttf, 44, 1, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb1, nimbus_sans.ttf, 46, 1, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb1, nimbus_sans.ttf, 44, 1, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb2, nimbus_sans.ttf, 44, 2, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb2, nimbus_sans.ttf, 64, 2, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb2, nimbus_sans.ttf, 64, 2, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb2, nimbus_sans.ttf, 44, 2, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb2, nimbus_sans.ttf, 44, 2, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb2, nimbus_sans.ttf, 46, 2, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb2, nimbus_sans.ttf, 44, 2, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb3, nimbus_sans.ttf, 44, 3, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb3, nimbus_sans.ttf, 64, 3, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb3, nimbus_sans.ttf, 64, 3, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb3, nimbus_sans.ttf, 44, 3, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb3, nimbus_sans.ttf, 44, 3, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb3, nimbus_sans.ttf, 46, 3, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb3, nimbus_sans.ttf, 44, 3, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb4, nimbus_sans.ttf, 44, 4, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb4, nimbus_sans.ttf, 64, 4, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb4, nimbus_sans.ttf, 64, 4, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb4, nimbus_sans.ttf, 44, 4, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb4, nimbus_sans.ttf, 44, 4, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb4, nimbus_sans.ttf, 46, 4, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb4, nimbus_sans.ttf, 44, 4, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb5, nimbus_sans.ttf, 44, 5, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb5, nimbus_sans.ttf, 64, 5, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb5, nimbus_sans.ttf, 64, 5, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb5, nimbus_sans.ttf, 44, 5, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb5, nimbus_sans.ttf, 44, 5, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb5, nimbus_sans.ttf, 46, 5, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb5, nimbus_sans.ttf, 44, 5, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb6, nimbus_sans.ttf, 44, 6, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb6, nimbus_sans.ttf, 64, 6, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb6, nimbus_sans.ttf, 64, 6, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb6, nimbus_sans.ttf, 44, 6, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb6, nimbus_sans.ttf, 44, 6, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb6, nimbus_sans.ttf, 46, 6, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb6, nimbus_sans.ttf, 44, 6, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb7, nimbus_sans.ttf, 44, 7, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb7, nimbus_sans.ttf, 64, 7, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb7, nimbus_sans.ttf, 64, 7, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb7, nimbus_sans.ttf, 44, 7, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb7, nimbus_sans.ttf, 44, 7, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb7, nimbus_sans.ttf, 46, 7, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb7, nimbus_sans.ttf, 44, 7, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb8, nimbus_sans.ttf, 44, 8, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb8, nimbus_sans.ttf, 64, 8, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb8, nimbus_sans.ttf, 64, 8, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb8, nimbus_sans.ttf, 44, 8, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb8, nimbus_sans.ttf, 44, 8, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb8, nimbus_sans.ttf, 46, 8, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb8, nimbus_sans.ttf, 44, 8, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb9, nimbus_sans.ttf, 44, 9, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb9, nimbus_sans.ttf, 64, 9, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb9, nimbus_sans.ttf, 64, 9, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb9, nimbus_sans.ttf, 44, 9, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb9, nimbus_sans.ttf, 44, 9, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb9, nimbus_sans.ttf, 46, 9, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb9, nimbus_sans.ttf, 44, 9, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb10, nimbus_sans.ttf, 44, 10, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb10, nimbus_sans.ttf, 64, 10, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb10, nimbus_sans.ttf, 64, 10, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb10, nimbus_sans.ttf, 44, 10, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb10, nimbus_sans.ttf, 44, 10, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb10, nimbus_sans.ttf, 46, 10, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb10, nimbus_sans.ttf, 44, 10, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb11, nimbus_sans.ttf, 44, 11, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb11, nimbus_sans.ttf, 64, 11, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb11, nimbus_sans.ttf, 64, 11, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb11, nimbus_sans.ttf, 44, 11, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb11, nimbus_sans.ttf, 44, 11, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb11, nimbus_sans.ttf, 46, 11, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb11, nimbus_sans.ttf, 44, 11, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb12, nimbus_sans.ttf, 44, 12, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb12, nimbus_sans.ttf, 64, 12, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb12, nimbus_sans.ttf, 64, 12, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb12, nimbus_sans.ttf, 44, 12, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb12, nimbus_sans.ttf, 44, 12, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb12, nimbus_sans.ttf, 46, 12, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb12, nimbus_sans.ttf, 44, 12, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb13, nimbus_sans.ttf, 44, 13, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb13, nimbus_sans.ttf, 64, 13, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb13, nimbus_sans.ttf, 64, 13, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb13, nimbus_sans.ttf, 44, 13, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb13, nimbus_sans.ttf, 44, 13, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb13, nimbus_sans.ttf, 46, 13, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb13, nimbus_sans.ttf, 44, 13, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb14, nimbus_sans.ttf, 44, 14, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb14, nimbus_sans.ttf, 64, 14, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb14, nimbus_sans.ttf, 64, 14, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb14, nimbus_sans.ttf, 44, 14, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb14, nimbus_sans.ttf, 44, 14, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb14, nimbus_sans.ttf, 46, 14, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb14, nimbus_sans.ttf, 44, 14, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb15, nimbus_sans.ttf, 44, 15, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb15, nimbus_sans.ttf, 64, 15, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb15, nimbus_sans.ttf, 64, 15, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb15, nimbus_sans.ttf, 44, 15, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb15, nimbus_sans.ttf, 44, 15, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb15, nimbus_sans.ttf, 46, 15, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb15, nimbus_sans.ttf, 44, 15, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb16, nimbus_sans.ttf, 44, 16, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb16, nimbus_sans.ttf, 64, 16, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb16, nimbus_sans.ttf, 64, 16, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb16, nimbus_sans.ttf, 44, 16, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb16, nimbus_sans.ttf, 44, 16, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb16, nimbus_sans.ttf, 46, 16, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb16, nimbus_sans.ttf, 44, 16, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb17, nimbus_sans.ttf, 44, 17, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb17, nimbus_sans.ttf, 64, 17, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb17, nimbus_sans.ttf, 64, 17, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb17, nimbus_sans.ttf, 44, 17, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb17, nimbus_sans.ttf, 44, 17, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb17, nimbus_sans.ttf, 46, 17, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb17, nimbus_sans.ttf, 44, 17, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb18, nimbus_sans.ttf, 44, 18, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb18, nimbus_sans.ttf, 64, 18, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb18, nimbus_sans.ttf, 64, 18, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb18, nimbus_sans.ttf, 44, 18, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb18, nimbus_sans.ttf, 44, 18, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb18, nimbus_sans.ttf, 46, 18, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb18, nimbus_sans.ttf, 44, 18, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb19, nimbus_sans.ttf, 44, 19, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb19, nimbus_sans.ttf, 64, 19, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb19, nimbus_sans.ttf, 64, 19, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb19, nimbus_sans.ttf, 44, 19, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb19, nimbus_sans.ttf, 44, 19, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb19, nimbus_sans.ttf, 46, 19, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb19, nimbus_sans.ttf, 44, 19, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb20, nimbus_sans.ttf, 44, 20, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb20, nimbus_sans.ttf, 64, 20, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb20, nimbus_sans.ttf, 64, 20, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb20, nimbus_sans.ttf, 44, 20, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb20, nimbus_sans.ttf, 44, 20, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb20, nimbus_sans.ttf, 46, 20, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb20, nimbus_sans.ttf, 44, 20, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb21, nimbus_sans.ttf, 44, 21, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb21, nimbus_sans.ttf, 64, 21, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb21, nimbus_sans.ttf, 64, 21, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb21, nimbus_sans.ttf, 44, 21, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb21, nimbus_sans.ttf, 44, 21, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb21, nimbus_sans.ttf, 46, 21, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb21, nimbus_sans.ttf, 44, 21, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb22, nimbus_sans.ttf, 44, 22, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb22, nimbus_sans.ttf, 64, 22, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb22, nimbus_sans.ttf, 64, 22, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb22, nimbus_sans.ttf, 44, 22, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb22, nimbus_sans.ttf, 44, 22, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb22, nimbus_sans.ttf, 46, 22, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb22, nimbus_sans.ttf, 44, 22, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb23, nimbus_sans.ttf, 44, 23, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb23, nimbus_sans.ttf, 64, 23, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb23, nimbus_sans.ttf, 64, 23, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb23, nimbus_sans.ttf, 44, 23, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb23, nimbus_sans.ttf, 44, 23, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb23, nimbus_sans.ttf, 46, 23, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb23, nimbus_sans.ttf, 44, 23, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb24, nimbus_sans.ttf, 44, 24, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb24, nimbus_sans.ttf, 64, 24, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb24, nimbus_sans.ttf, 64, 24, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb24, nimbus_sans.ttf, 44, 24, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb24, nimbus_sans.ttf, 44, 24, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb24, nimbus_sans.ttf, 46, 24, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb24, nimbus_sans.ttf, 44, 24, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb25, nimbus_sans.ttf, 44, 25, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb25, nimbus_sans.ttf, 64, 25, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb25, nimbus_sans.ttf, 64, 25, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb25, nimbus_sans.ttf, 44, 25, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb25, nimbus_sans.ttf, 44, 25, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb25, nimbus_sans.ttf, 46, 25, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb25, nimbus_sans.ttf, 44, 25, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb26, nimbus_sans.ttf, 44, 26, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb26, nimbus_sans.ttf, 64, 26, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb26, nimbus_sans.ttf, 64, 26, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb26, nimbus_sans.ttf, 44, 26, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb26, nimbus_sans.ttf, 44, 26, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb26, nimbus_sans.ttf, 46, 26, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb26, nimbus_sans.ttf, 44, 26, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb27, nimbus_sans.ttf, 44, 27, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb27, nimbus_sans.ttf, 64, 27, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb27, nimbus_sans.ttf, 64, 27, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb27, nimbus_sans.ttf, 44, 27, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb27, nimbus_sans.ttf, 44, 27, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb27, nimbus_sans.ttf, 46, 27, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb27, nimbus_sans.ttf, 44, 27, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb28, nimbus_sans.ttf, 44, 28, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb28, nimbus_sans.ttf, 64, 28, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb28, nimbus_sans.ttf, 64, 28, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb28, nimbus_sans.ttf, 44, 28, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb28, nimbus_sans.ttf, 44, 28, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb28, nimbus_sans.ttf, 46, 28, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb28, nimbus_sans.ttf, 44, 28, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb29, nimbus_sans.ttf, 44, 29, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb29, nimbus_sans.ttf, 64, 29, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb29, nimbus_sans.ttf, 64, 29, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb29, nimbus_sans.ttf, 44, 29, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb29, nimbus_sans.ttf, 44, 29, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb29, nimbus_sans.ttf, 46, 29, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb29, nimbus_sans.ttf, 44, 29, 0, 0, 128, 99, center, center, 41, 236, 46
+AddText az, ab30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azz, abb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText azzz, abbb30, nimbus_sans.ttf, 44, 30, 0, 0, 128, 99, center, center, 255, 181, 7
+AddText bz, bb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzz, bbb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 179, 179, 179
+AddText bzzz, bbbb30, nimbus_sans.ttf, 64, 30, 0, 0, 256, 128, center, center, 150, 150, 150
+AddText cbutton, cb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 0, 0, 160
+AddText cbutton, cbb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 20, 20, 255
+AddText bzzz, cbbb30, nimbus_sans.ttf, 64, 30, 0, 0, 256, 128, center, center, 20, 20, 255
+AddText dz, db30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 192, 192, 192
+AddText dz, dbb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText dzzz, dbbb30, nimbus_sans.ttf, 44, 30, 0, 0, 128, 128, center, center, 255, 0, 0
+AddText ez, eb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezz, ebb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 0, 0, 0
+AddText ezzz, ebbb30, nimbus_sans.ttf, 44, 30, 0, 0, 128, 128, center, center, 0, 0, 255
+AddText fz, fb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 51, 181, 59
+AddText fzz, fbb30, nimbus_sans.ttf, 46, 30, 0, 0, 128, 128, center, center, 41, 236, 46
+AddText fzzz, fbbb30, nimbus_sans.ttf, 44, 30, 0, 0, 128, 99, center, center, 41, 236, 46
+<EndTextures>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddGround name, grass, -12000, -12000, 12000, 12000, 4, 1000, 1000
+<Floors 0 to 1500>
+ID = %floor%
+Name = Floor %floor%
+Type = Office
+Height = 15
+InterfloorHeight = 2.24
+<endfloors>
+Cut Landscape, 0, 3, 0, 538, 5, 1097, false, true
+Cut Landscape, 0, 3, 0, 538, 5, 1097, false, true
+Addfloor external, blar, road1, 0,         0, 0, 25, 25,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 25, 25, 116,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 0, 137, 25,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 0, 162, 25,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 25, 162, 116,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 0, 232, 25,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 0, 257, 25,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 25, 257, 116,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 0, 341, 25,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 0, 366, 25,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 25, 366, 116,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 0, 394, 25,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 0, 419, 25,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 25, 419, 116,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 0, 538, 25,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 116, 25, 141,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 141, 25, 267,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 116, 137, 141,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 116, 162, 141,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 141, 162, 267,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 116, 232, 141,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 116, 257, 141,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 141, 257, 267,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 116, 341, 141,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 116, 366, 141,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 141, 366, 267,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 116, 394, 141,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 116, 419, 141,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 141, 419, 267,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 116, 538, 141,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 267, 25, 292,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 292, 25, 369,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 267, 137, 292,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 267, 162, 292,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 292, 162, 369,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 267, 232, 292,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 267, 257, 292,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 292, 257, 369,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 267, 341, 292,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 267, 366, 292,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 292, 366, 369,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 267, 394, 292,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 267, 419, 292,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 292, 419, 369,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 267, 538, 292,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 369, 25, 394,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 394, 25, 457,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 369, 137, 394,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 369, 162, 394,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 394, 162, 457,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 369, 232, 394,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 369, 257, 394,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 394, 257, 457,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 369, 341, 394,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 369, 366, 394,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 394, 366, 457,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 369, 394, 394,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 369, 419, 394,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 394, 419, 457,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 369, 538, 394,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 457, 25, 482,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 482, 25, 594,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 457, 137, 482,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 457, 162, 482,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 482, 162, 594,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 457, 232, 482,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 457, 257, 482,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 482, 257, 594,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 457, 341, 482,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 457, 366, 482,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 482, 366, 594,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 457, 394, 482,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 457, 419, 482,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 482, 419, 594,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 457, 538, 482,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 594, 25, 619,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 619, 25, 682,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 594, 137, 619,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 594, 162, 619,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 619, 162, 682,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 594, 232, 619,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 594, 257, 619,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 619, 257, 682,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 594, 341, 619,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 594, 366, 619,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 619, 366, 682,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 594, 394, 619,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 594, 419, 619,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 619, 419, 682,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 594, 538, 619,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 682, 25, 707,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 707, 25, 763,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 682, 137, 707,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 682, 162, 707,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 707, 162, 763,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 682, 232, 707,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 682, 257, 707,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 707, 257, 763,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 682, 341, 707,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 682, 366, 707,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 707, 366, 763,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 682, 394, 707,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 682, 419, 707,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 707, 419, 763,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 682, 538, 707,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 763, 25, 788,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 788, 25, 851,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 763, 137, 788,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 763, 162, 788,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 788, 162, 851,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 763, 232, 788,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 763, 257, 788,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 788, 257, 851,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 763, 341, 788,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 763, 366, 788,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 788, 366, 851,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 763, 394, 788,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 763, 419, 788,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 788, 419, 851,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 763, 538, 788,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 851, 25, 876,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 876, 25, 981,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 851, 137, 876,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 851, 162, 876,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 876, 162, 981,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 851, 232, 876,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 851, 257, 876,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 876, 257, 981,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 851, 341, 876,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 851, 366, 876,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 876, 366, 981,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 851, 394, 876,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 851, 419, 876,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 876, 419, 981,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 851, 538, 876,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         0, 981, 25, 1006,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         0, 1006, 25, 1097,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         25, 981, 137, 1006,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         137, 981, 162, 1006,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         137, 1006, 162, 1097,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         162, 981, 232, 1006,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         232, 981, 257, 1006,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         232, 1006, 257, 1097,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         257, 981, 341, 1006,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         341, 981, 366, 1006,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         341, 1006, 366, 1097,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         366, 981, 394, 1006,         4, 4, 0, 0
+Addfloor external, blar, road1, 0,         394, 981, 419, 1006,         4, 4, 0, 0
+Addfloor external, blar, road2, 0,         394, 1006, 419, 1097,         4, 4, 0, 0
+Addfloor external, blar, road3, 0,         419, 981, 538, 1006,         4, 4, 0, 0
+Cut Landscape, 25, 3, 25, 137, 5, 116, false, true
+SetAutoSize = true, true
