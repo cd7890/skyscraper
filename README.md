@@ -1,4 +1,2 @@
-skyscraper
+For my Skyscraper Community Projects
 ==========
-
-For the Skyscraper Community
