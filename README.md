@@ -1,2 +1,1 @@
-For my Skyscraper Community Projects
-==========
+This is a Hyper-Tall Community project,the centerpiece of which is a 1,500 storey Hyper-tower connected by Skybridges to the other Towers in the complex
