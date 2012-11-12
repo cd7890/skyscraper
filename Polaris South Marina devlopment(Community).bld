@@ -2,9 +2,10 @@
 Name = My Building
 HorizScale = 1
 CameraFloor = 0
-CameraPosition = 23, 36
+CameraPosition = 25, 0
 CameraRotation = 0, 0, 0
 Sky = noon
+#InterfloorOnTop = true
 <EndGlobals>
 <Textures>
 Load data/beno/gggg1.gif, liftglass, 0.125, 0.125
@@ -704,7 +705,7 @@ AddText fzzz, fbbb30, nimbus_sans.ttf, 44, 30, 0, 0, 128, 99, center, center, 41
 SetAutoSize = true, true
 DrawWalls = false, true, false, false, false, false
 AddGround name, grass, -12000, -12000, 12000, 12000, 4, 1000, 1000
-<Floors 0 to 1500>
+<Floors 0 to 1501>
 ID = %floor%
 Name = Floor %floor%
 Type = Office
@@ -865,3 +866,4 @@ Addfloor external, blar, road2, 0,         394, 1006, 419, 1097,         4, 4, 0
 Addfloor external, blar, road3, 0,         419, 981, 538, 1006,         4, 4, 0, 0
 Cut Landscape, 25, 3, 25, 137, 5, 116, false, true
 SetAutoSize = true, true
+CreateWallBox external, My Box, out3, 25, 137, 25, 116, 25860.3, 2.24, 0, 0, true, true, true, true
