@@ -867,3 +867,5 @@ Addfloor external, blar, road3, 0,         419, 981, 538, 1006,         4, 4, 0,
 Cut Landscape, 25, 3, 25, 137, 5, 116, false, true
 SetAutoSize = true, true
 CreateWallBox external, My Box, out3, 25, 137, 25, 116, 25860.3, 2.24, 0, 0, true, true, true, true
+<Include buildings/Building A-1.bld>
+<Include buildings/Building B-1.bld>
